@@ -1,0 +1,51 @@
+.grid-container{
+
+/* border: 2px solid red; */
+/* display: grid;
+grid-template-columns: 400px; */
+}
+
+.outlet{
+    display: grid;
+    grid-template-columns: 10rem 1fr 4fr 10rem;
+
+    margin-top: 10rem;
+    gap: 70px;
+  }
+ 
+
+.grid-container{
+    grid-column: 2/3;
+}
+a{
+    /* border: 2px solid black; */
+     text-decoration: none;
+     text-transform: capitalize;
+    font-size: 2.5rem;
+    
+
+
+  
+}
+.drashboad ul li{
+    border: 2px solid black;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+
+}
+
+.color-change{
+    border: 2px solid red;
+    position: relative;
+}
+ .btn1{
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: red;
+    
+    left: 30rem;
+    bottom: 30px;
+
+}
